@@ -1,0 +1,15 @@
+{
+  "name": "Boston Globe",
+  "version": "1.0",
+  "description": "Boston Globe Ex",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["aScript.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bostonglobe.com/2020/*","https://www.bostonglobe.com/2019/*", "https://www.bostonglobe.com/"],
+      "js": ["aScript.js"]
+    }
+  ]
+}
